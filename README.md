@@ -7,3 +7,5 @@ To operate it, you need to do the following:
 2. Set the environment variable SEARCH_STRING
 
 The program will log into the website, run the search, and export the first search result as a PDF file stored in a unique subfolder within the /tmp directory
+
+This was tested successfully on Mac and Raspberry Pi
