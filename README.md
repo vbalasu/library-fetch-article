@@ -9,3 +9,10 @@ To operate it, you need to do the following:
 The program will log into the website, run the search, and export the first search result as a PDF file stored in a unique subfolder within the /tmp directory
 
 This was tested successfully on Mac and Raspberry Pi
+
+### Usage
+
+```bash
+export SEARCH_STRING=Databricks
+python3 library-fetch-article.py
+```
