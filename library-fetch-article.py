@@ -7,9 +7,9 @@
 import sys, os
 if 'ipykernel_launcher' in sys.argv[0]:
     os.environ['SEARCH_STRING'] = "Tech Wage Inflation Puts Pressure on Companies"
-search_string = os.getenv('SEARCH_STRING')
+search_string = sys.argv[1]
 if not search_string:
-    sys.exit('Environment variable SEARCH_STRING not defined')
+    sys.exit('Argument SEARCH_STRING not defined')
 
 
 # In[2]:
